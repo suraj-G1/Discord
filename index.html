@@ -1,227 +1,371 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discord </title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discord</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
     <!-- Contains all the sections -->
 
+    <nav class="w-full bg-blue relative bg-lighBlue500">
+      <div
+        class="flex flex-row justify-between w-11/12 max-w-[1080px] mx-auto items-center py-6"
+      >
+        <a href="#" class="cursor-pointer">
+          <img src="./images/logo.svg" alt="" />
+        </a>
 
-        <nav class="w-full bg-blue relative bg-lighBlue500">
-            <div class=" flex flex-row justify-between w-11/12 max-w-[1080px] mx-auto items-center py-6 ">
-                <a href="#" class="cursor-pointer">
-                    <img src="./images/logo.svg" alt="">
-                </a>
+        <ul
+          class="lg:flex justify-around gap-10 font-mullish text-[0.85rem] font-semibold text-white items-center hidden"
+        >
+          <li class="hover:underline transition-all duration-200">
+            <a href="#">Download</a>
+          </li>
+          <li class="hover:underline transition-all duration-200">
+            <a href="#">Nitro</a>
+          </li>
 
-                <ul class="flex justify-around gap-10 font-mullish  text-[0.85rem] font-semibold text-white items-center ">
-                    <li class="hover:underline transition-all duration-200">
-                        <a href="#">Download</a>
-                    </li>
-                    <li class="hover:underline transition-all duration-200">
-                        <a href="#">Nitro</a>
-                    </li>
+          <li class="hover:underline transition-all duration-200">
+            <a href="#">Discover</a>
+          </li>
 
-                    <li class="hover:underline transition-all duration-200">
-                        <a href="#">Discover</a>
-                    </li>
+          <li class="hover:underline transition-all duration-200">
+            <a href="#">Safety</a>
+          </li>
 
-                    <li class="hover:underline transition-all duration-200">
-                        <a href="#">Safety</a>
-                    </li>
+          <li class="hover:underline transition-all duration-200">
+            <a href="#">Support</a>
+          </li>
 
-                    <li class="hover:underline transition-all duration-200">
-                        <a href="#">Support</a>
-                    </li>
+          <li class="hover:underline transition-all duration-200">
+            <a href="#">Blog</a>
+          </li>
 
-                    <li class="hover:underline transition-all duration-200">
-                        <a href="#">Blog</a>
-                    </li>
+          <li class="hover:underline hover:transition-all duration-500">
+            <a href="#">Careers</a>
+          </li>
+        </ul>
 
-                    <li class="hover:underline hover:transition-all duration-500">
-                        <a href="#">Careers</a>
-                    </li>
+        <div class="relative flex gap-4">
+          <button
+            class="font-mullish border rounded-3xl py-2 px-3 text-black bg-white font-semibold text-[0.80rem] hover:text-lightBlue300 transition-all duration-300 hover:shadow-md shadow-black"
+          >
+            Login
+          </button>
 
-                </ul>
-
-                <div class="relative ">
-                    <button class="font-mullish border rounded-3xl py-2 px-3 text-black bg-white font-semibold text-[0.80rem] hover:text-lightBlue300 transition-all duration-300 hover:shadow-md shadow-black ">
-                        Login
-                    </button>
-                </div>
+          <img src="./images/icons8-menu.svg" alt="" class="lg:hidden block" width="28px" height="28px">
+        </div>
         
-                
-            </div>
-        </nav>
+      </div>
+    </nav>
 
-        <!-- Hero Section -->
+    <!-- Hero Section -->
 
-        <section class= "bg-[url(./images/Image0.svg)] z-100 relative w-full bg-lighBlue500 h-[500px]  bg-cover bg-no-repeat overflow-x-hidden">
-            <img src="./images/Image2.svg" alt="" height="600px" width="600px" class="absolute -left-[25%] bottom-0 z-20">
-            <img src="./images/Image1.svg" alt="" height="600px" width="600px" class="absolute -right-[20%] bottom-0 z-20">
-            <div class=" w-full mx-auto ">
-                
-                <div class="relative flex flex-col justify-center items-center gap-10 w-7/12 mx-auto pt-20" >
-                    
-                    
-                    <h1 class="font-Abcgintonord 800,sans-serif font-extrabold text-5xl text-white uppercase">Imagine a place...
-                    </h1>
-                    <p class="font-mullish text-white font-light text-center">
-                        ...where you can belong to a school club, a gaming group, or a worldwide art community.
-                         Where just you and a handful of friends can spend time together. A place that makes it easy to talk every day and hang out more often.
-                    </p>
+    <section
+      class="bg-[url(./images/Image0.svg)] z-100 relative w-full bg-lighBlue500 h-[500px] bg-cover bg-no-repeat overflow-x-hidden"
+    >
+      <img
+        src="./images/Image2.svg"
+        alt=""
+        width="600px"
+        height="600px"
+        
+        class="absolute -left-[25%]  bottom-0 z-20 hidden lg:block"
+      />
+      <img
+        src="./images/Image1.svg"
+        alt=""
+        height="600px"
+        width="600px"
+        class="absolute -right-[22%] bottom-0 z-20 hidden lg:block"
+      />
+      <div class="w-full mx-auto">
+        <div
+          class="relative flex flex-col justify-center items-center gap-10 w-7/12 mx-auto pt-20"
+        >
+          <h1
+            class="font-Abcgintonord 800,sans-serif font-extrabold text-5xl text-white uppercase"
+          >
+            Imagine a place...
+          </h1>
+          <p class="font-mullish text-white font-light text-center">
+            ...where you can belong to a school club, a gaming group, or a
+            worldwide art community. Where just you and a handful of friends can
+            spend time together. A place that makes it easy to talk every day
+            and hang out more often.
+          </p>
 
-                    
-                    <div class="flex gap-8">
-                       
+          <div class="flex gap-8 lg:flex-row flex-col">
+            <button
+              class="flex border rounded-3xl px-8 py-3 gap-4 bg-white hover:shadow-xl transition-all duration-200 hover:text-lightBlue300"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
 
-                        <button class="flex border rounded-3xl px-8 py-3 gap-4 bg-white hover:shadow-xl transition-all duration-200 hover:text-lightBlue300">
-                            <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            >
-                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                            <polyline points="7 10 12 15 17 10" />
-                            <line x1="12" y1="15" x2="12" y2="3" />
-                            </svg>
-    
-                            
-                            <span class="font-mullish font-light text-xl text-black hover:text-lightBlue300 transition-all duration-200">Download for Windows</span>
-                        </button>
+              <span
+                class="font-mullish font-light text-xl text-black hover:text-lightBlue300 transition-all duration-200"
+                >Download for Windows</span
+              >
+            </button>
 
-                    
-                        <button class="font-mullish border rounded-3xl px-8 py-2 bg-[#23272a] text-white hover:shadow-xl transition-all duration-200">
-                            Open Discord on Your Browser
-                        </button>
-                    </div>
+            <button
+              class="font-mullish border rounded-3xl px-8 py-2 bg-[#23272a] text-white hover:shadow-xl transition-all duration-200"
+            >
+              Open Discord on Your Browser
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Section 1 -->
+    <section class="w-full relative">
+      <div class="w-9/12 mx-auto py-[130px] flex gap-20 lg:flex-row flex-col">
+        <!-- Image Left -->
+        <img
+          src="./images/section1Image.svg"
+          alt=""
+          class="w-6/12"
+          loading="lazy"
+        />
+        <div class="flex flex-col justify-center items-center gap-4 mx-auto">
+          <h1 class="font-mullish font-bold text-[#23272a] text-4xl">
+            Create an invite-only place where you belong
+          </h1>
+          <p class="font-mullish font-light text-[1.1rem]">
+            Discord servers are organized into topic-based channels where you
+            can collaborate, share, and just talk about your day without
+            clogging up a group chat.
+          </p>
+        </div>
+      </div>
+    </section>
 
-                </div>
-            </div>
-        </section>
+    <!-- Section 2 -->
 
+    <section class="w-full relative bg-[#f6f6f6]">
+      <div class="w-9/12 mx-auto py-[130px] flex gap-20 lg:flex-row flex-col">
+        <!-- Image Left -->
 
-        <!-- Section 1 -->
-        <section class="w-full relative ">
-            <div class="w-9/12 mx-auto py-[130px] flex  gap-20">
-                <!-- Image Left -->
-                <img src="./images/section1Image.svg" alt="" class="w-6/12" loading="lazy">
-                <div class="flex flex-col justify-center items-center gap-4 mx-auto ">
-                    <h1 class="font-mullish font-bold text-[#23272a] text-4xl">
-                        Create an invite-only place where you belong
-                    </h1>
-                    <p class="font-mullish font-light text-[1.1rem]">
-                        Discord servers are organized into topic-based channels where you can collaborate, 
-                        share, and just talk about your day without clogging up a group chat.
+        <div class="flex flex-col justify-center items-center gap-4 mx-auto">
+          <h1 class="font-mullish font-bold text-[#23272a] text-4xl">
+            Where hanging out is easy
+          </h1>
+          <p class="font-mullish font-light text-[1.1rem]">
+            Grab a seat in a voice channel when you’re free. Friends in your
+            server can see you’re around and instantly pop in to talk without
+            having to call.
+          </p>
+        </div>
+        <img
+          src="./images/section2Image.svg"
+          alt=""
+          class="w-6/12"
+          loading="lazy"
+        />
+      </div>
+    </section>
 
-                    </p>
-                </div>
-            </div>
-        </section>
+    <!-- Section 3 -->
 
+    <section class="w-full relative">
+      <div class="w-9/12 mx-auto py-[130px] flex gap-20 lg:flex-row flex-col">
+        <!-- Image Left -->
+        <img
+          src="./images/section3Image.svg"
+          alt=""
+          class="w-6/12"
+          loading="lazy"
+        />
+        <div class="flex flex-col justify-center items-center gap-4 mx-auto">
+          <h1 class="font-mullish font-bold text-[#23272a] text-4xl">
+            From few to a fandom
+          </h1>
+          <p class="font-mullish font-light text-[1.1rem]">
+            Get any community running with moderation tools and custom member
+            access. Give members special powers, set up private channels, and
+            more.
+          </p>
+        </div>
+      </div>
+    </section>
 
-        <!-- Section 2 -->
+    <!-- Section 4 -->
 
+    <section class="w-full bg-[#f6f6f6] relative">
+      <div class="w-10/12 flex flex-col mx-auto gap-8 py-[80px] ">
+        <h2
+          class="font-extrabold text-4xl text-center font-Abcgintonord 800,sans-serif"
+        >
+          RELIABLE TECH FOR STAYING CLOSE
+        </h2>
+        <p
+          class="font-mullish text-[1.1rem] font-extralight w-10/12 mx-auto text-center text-gray-600"
+        >
+          Low-latency voice and video feels like you’re in the same room. Wave
+          hello over video, watch friends stream their games, or gather up and
+          have a drawing session with screen share.
+        </p>
+        <img src="./images/section4Image.svg" alt="" />
 
-        <section class="w-full relative bg-[#f6f6f6]">
-            <div class="w-9/12 mx-auto py-[130px] flex  gap-20">
-                <!-- Image Left -->
-                
-                <div class="flex flex-col justify-center items-center gap-4 mx-auto ">
-                    <h1 class="font-mullish font-bold text-[#23272a] text-4xl">
-                        Where hanging out is easy
-
-                    </h1>
-                    <p class="font-mullish font-light text-[1.1rem]">
-                        Grab a seat in a voice channel when you’re free. Friends in your server can see you’re 
-                        around and instantly pop in to talk without having to call.
-
-
-                    </p>
-                </div>
-                <img src="./images/section2Image.svg" alt="" class="w-6/12" loading="lazy">
-            </div>
-        </section>
-
-
-        <!-- Section 3 -->
-
-        <section class="w-full relative">
-            <div class="w-9/12 mx-auto py-[130px] flex  gap-20">
-                <!-- Image Left -->
-                <img src="./images/section3Image.svg" alt="" class="w-6/12" loading="lazy">
-                <div class="flex flex-col justify-center items-center gap-4 mx-auto ">
-                    <h1 class="font-mullish font-bold text-[#23272a] text-4xl">
-                        From few to a fandom
-                    </h1>
-                    <p class="font-mullish font-light text-[1.1rem]">
-
-                        Get any community running with moderation tools and custom member access.
-                         Give members special powers, set up private channels, and more.
-
-                        
-
-                    </p>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- Section 4 -->
-
-        <section class="bg-[url(/images/Image0.svg)] w-full bg-cover bg-no-repeat bg-[#f6f6f6]">
-
-            <div class="w-10/12 flex flex-col mx-auto gap-4">
-                <h2 class="font-bold text-4xl text-center font-Abcgintonord 800,sans-serif">RELIABLE TECH FOR STAYING CLOSE
-                </h2>
-                <p class="font-mullish text-[1rem] font-extralight w-8/12 mx-auto">Low-latency voice and video feels like you’re in the same room. Wave hello over video,
-                     watch friends stream their games, or gather up and have a drawing session with screen share.
-                </p>
-                <img src="./images/section4Image.svg" alt="">
-
-                <section class="bg-url[(/images/section5Image.svg)] bg-cover bg-no-repeat w-full">
+        <!-- <section class="bg-url[(/images/section5Image.svg)] bg-cover bg-no-repeat w-full">
                     
                     <h3 class="font-mullish font-bold text-4xl text-center">Ready to start your Journey?</h3>
-                </section>
-                <button class="flex flex-row mx-auto gap-4">
-                    <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            >
-                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                            <polyline points="7 10 12 15 17 10" />
-                            <line x1="12" y1="15" x2="12" y2="3" />
-                    </svg>
-                    <span>
-                        Download for Windows
-                    </span>
-                
-                </button>
+                </section> -->
+
+        <div class="relative flex flex-col items-center mt-8">
+          <img
+            src="./images/section5Image.svg"
+            alt=""
+            class="absolute top-0 w-11/12"
+          />
+          <h3 class="font-mullish text-3xl font-bold mt-6">
+            Ready to start your Journey?
+          </h3>
+        </div>
+        <button
+          class="flex flex-row mx-auto gap-4 bg-blue-800 border py-3 px-5 rounded-3xl text-white mt-2"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          <span class="text-white"> Download for Windows </span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="w-full relative bg-[#23272A] ">
+      <div class="w-10/12 mx-auto relative  pt-10 flex flex-col gap-8 ">
+        <div class="relative w-full flex flex-row  ">
+          <!-- Left Part -->
+          <div class="flex flex-col gap-4 relative">
+            <h2 class="font-extrabold text-2xl font-mullish text-lightBlue300">
+              Imagine a Place
+            </h2>
+            <div class="flex gap-4">
+              <img
+                src="./images/icons8-facebook.svg"
+                alt=""
+                width="25px"
+                height="25px"
+              />
+              <img
+                src="./images/icons8-instagram.svg"
+                alt=""
+                width="25px"
+                height="25px"
+              />
+              <img
+                src="./images/icons8-twitter.svg"
+                alt=""
+                width="25px"
+                height="25px"
+              />
+              <img
+                src="./images/icons8-youtube.svg"
+                alt=""
+                width="25px"
+                height="25px"
+              />
+            </div>
+          </div>
+
+          <!-- Right Part -->
+
+          <div
+            class=" relative gap-10 text-white text-[0.9rem] justify-around grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 mx-auto"
+          >
+            <!-- First  -->
+
+            <div class="flex flex-col gap-2 text-[0.9rem]">
+              <h4 class="text-lighBlue500 pb-2">Product</h4>
+              <a href="#">Download </a>
+              <a href="#">Nitro</a>
+              <a href="#">Status</a>
+              <a href="#">News Room</a>
+              <a href="#">New Mobile Experience</a>
             </div>
 
+            <!-- Second -->
 
-        </section>
+            <div class="flex flex-col gap-2">
+              <h4 class="text-lighBlue500 pb-2">Company</h4>
+              <a href="#">About </a>
+              <a href="#">Jobs</a>
+              <a href="#">Brand</a>
+              <a href="#">Apps Directory </a>
+              <!-- <a href="#">New Mobile Experience</a> -->
+            </div>
 
+            <!-- Third -->
 
+            <div class="flex flex-col gap-2">
+              <h4 class="text-lighBlue500 pb-2">Resources</h4>
+              <a href="#">College </a>
+              <a href="#">Support</a>
+              <a href="#">Safety</a>
+              <a href="#">Bolg</a>
+              <a href="#">Feedback</a>
+              <!-- <h4>Product</h4> -->
+              <a href="#">StreamKit</a>
+              <a href="#">Creators</a>
+              <a href="#">Community</a>
+              <a href="#">Developers</a>
+              <a href="#">Gaming</a>
+              <a href="#">Quests</a>
+              <a href="#">Official 3rd Party Merch</a>
+            </div>
 
+            <!-- Fourth -->
 
+            <div class="flex flex-col gap-2">
+              <h4 class="text-lighBlue500 pb-2">Policies</h4>
+              <a href="#">Terms </a>
+              <a href="#">Privacy</a>
+              <a href="#">Cookie Settings</a>
+              <a href="#">Guidelines</a>
+              <a href="#">Acknowledgements</a>
+              <a href="#">Licenses</a>
+              <a href="#">Company Information</a>
+            </div>
+          </div>
+        </div>
 
-    
-</body>
+        <div class="w-full h-[1px] bg-lighBlue500 relative"></div>
+
+        <div class="flex flex-row relative w-full pb-[80px]">
+          <img src="./images/logo.svg" alt="" class=" absolute left-0" />
+          <button class=" absolute right-0  rounded-3xl py-2 px-3 bg-lighBlue500 font-bold text-[0.8rem] text-white">Sign up</button>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
